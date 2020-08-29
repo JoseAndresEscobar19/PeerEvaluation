@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calificaciones Peer Evaluation SI2</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>
+          Peer Evaluation Software Engineering II
+        </h2>
+      </div>
+    </div>
+    <hr>
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="c">
+            Matrícula
+          </th>
+          <th>
+            Nombre
+          </th>
+          <th>
+            Grupo
+          </th>
+          <th>
+            Promedio
+          </th>
+          <th>
+            Ponderado
+          </th>
+          <th>
+            Evaluación Hecha
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        {%for r in resultado%}
+        <tr>
+          <td>
+            {{r.0.matricula}}
+          </td>
+          <td>
+            {{r.0.nombre}}
+          </td>
+          <td>
+            {{r.0.group}}
+          </td>
+          <td>
+            {{r.1|floatformat:2|default_if_none:0.0}}
+          </td>
+          <td>
+            {{r.2|floatformat:2|default_if_none:0.0}}
+          </td>
+          <td>
+            {%if r.0.done %}
+            Si
+            {%else%}
+            <strong>No</strong>
+            {%endif%}
+          </td>
+        </tr>
+        {%endfor%}
+      </tbody>
+    </table>
+
+    <hr>
+    <div class="row">
+      <div class="col-12">
+        <p>
+          Level 5 100% of the assignment grade
+        <ul>
+          <li>The team member participated fully in all discussions, contributing your own ideas and suggestions in each
+            phase of the project</li>
+          <li>The team member fully in project activities (planning, data or information collection, data analysis,
+            writing, presenting, etc.)</li>
+          <li>The team member attended all group meetings</li>
+          <li>The team member completed all tasks that you agreed to conduct for the project/team</li>
+        </ul>
+        Level 4 75% of the assignment grade
+        <ul>
+          <li>The team member participated in each phase of the project but showed less initiative in contributing your
+            ideas and suggestions</li>
+          <li>The team member usually participated in project activities, but not always</li>
+          <li>The team member usually attended team meetings</li>
+          <li>The team member usually completed tasks that you agreed to conduct for the project/team</li>
+        </ul>
+        Level 3 50% of the assignment grade
+        <ul>
+          <li>The team member occasionally participated in the various phases of the project, generally as a “follower”
+            rather than contributing to project development</li>
+          <li>The team member occasionally attended team meetings</li>
+          <li>The team member completed one or two minor tasks that you agreed to conduct for the project/team</li>
+        </ul>
+        Level 2 25% of the assignment grade
+        <ul>
+          <li>The team member contributed very little to the project, showing no initiative</li>
+          <li>The team member missed the vast majority of the team meetings</li>
+          <li>The team member failed to complete the majority of tasks that you agreed to conduct for the project/team
+          </li>
+        </ul>
+        Level 1 No credit
+        <ul>
+          <li>The team member did not participate in developing the project/presentation</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

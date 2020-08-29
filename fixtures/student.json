@@ -1,0 +1,266 @@
+[
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201304419,
+            "nombre": "AGUAYO VINZA,NEYCKER ALDRICH",
+            "group": 7
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201020716,
+            "nombre": "Lama Aguirre, Luis Sunjing",
+            "group": 7
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201606365,
+            "nombre": "ULLOA MORA,PIERO MARCELO",
+            "group": 7
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201605680,
+            "nombre": "MUÑOZ PARRAGA,DIEGO MANUEL",
+            "group": 6
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201504652,
+            "nombre": "JACOME RODRIGUEZ,DAVID WILLIAM",
+            "group": 6
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201601358,
+            "nombre": "VERA BENAVIDES,JUAN DIEGO",
+            "group": 6
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201601226,
+            "nombre": "IPARREÑO SANTAMARIA,LINDTHON ANDRES",
+            "group": 6
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201512163,
+            "nombre": "TOVAR VERA,PATRICIO JAVIER",
+            "group": 6
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201512612,
+            "nombre": "Freire  Tubay,Estefania Concepción",
+            "group": 1
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201606381,
+            "nombre": "ARROYO YANEZ,DANIEL ALEJANDRO",
+            "group": 1
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201601200,
+            "nombre": "Silva Peñafiel,Karen Sarahi",
+            "group": 1
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201506023,
+            "nombre": "VERA GUZMAN,MILTON ALDAIR",
+            "group": 1
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201601192,
+            "nombre": "Herrera Cedeno, Jose Fabricio",
+            "group": 1
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201508109,
+            "nombre": "SESME VERA,CARLOS ANTHONY",
+            "group": 5
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201506377,
+            "nombre": "VEAS CERVANTES,TONY FREDDY",
+            "group": 5
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201601440,
+            "nombre": "AGUIRRE LARROSA,STEFANNY BRIGGITTE",
+            "group": 5
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201601432,
+            "nombre": "PINCAY JIMÉNEZ,ROSA MARÍA",
+            "group": 5
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201508297,
+            "nombre": "BRAGANZA ZORILLA,SAMUEL MAURICIO",
+            "group": 5
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201505398,
+            "nombre": "MORENO  MACIAS,FERNANDO SAUL",
+            "group": 2
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201605656,
+            "nombre": "GODOY SAAVEDRA,AXEL JEREMY",
+            "group": 2
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201606357,
+            "nombre": "LECARO LANCHANG,MANUEL NICOLAS",
+            "group": 2
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201605946,
+            "nombre": "DE LA A YAGUAL,DANNY LEONEL",
+            "group": 2
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201605870,
+            "nombre": "REYES RUIZ,JOSE",
+            "group": 2
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201508189,
+            "nombre": "ALARCON GONZABAY,LUIGGI STEVEN",
+            "group": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201508179,
+            "nombre": "GOMEZ DE LA VERA,KEVIN JOEL",
+            "group": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201514964,
+            "nombre": "Jacome  Hidalgo,Ginger Paulette",
+            "group": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201508277,
+            "nombre": "MATICURENA MATICURENA,HENRY EMANUEL",
+            "group": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201506043,
+            "nombre": "RODRIGUEZ TOAQUIZA,LUIS HERNAN",
+            "group": 3
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201604352,
+            "nombre": "LEON VASQUEZ,RONALD NEYTHAN",
+            "group": 4
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201503575,
+            "nombre": "NAVARRETE MORA,ADAN JOSE",
+            "group": 4
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201613528,
+            "nombre": "FIGUEROA VILLACRESES,GALO XAVIER",
+            "group": 4
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201608288,
+            "nombre": "ATIENCIA CALLE,YSABEL YAMILETH",
+            "group": 4
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": 201604337,
+            "nombre": "RIVAS MORALES,MIGUEL ANGEL",
+            "group": 4
+        }
+    }
+]

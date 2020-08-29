@@ -1,0 +1,51 @@
+[
+  {
+    "model": "evaluation.Group",
+    "pk": 1,
+    "fields": {
+      "nombre": "Grupo 1"
+    }
+  },
+  {
+    "model": "evaluation.Group",
+    "pk": 2,
+    "fields": {
+      "nombre": "Grupo 2"
+    }
+  },
+  {
+    "model": "evaluation.Group",
+    "pk": 3,
+    "fields": {
+      "nombre": "Grupo 3"
+    }
+  },
+  {
+    "model": "evaluation.Group",
+    "pk": 4,
+    "fields": {
+      "nombre": "Grupo 4"
+    }
+  },
+  {
+    "model": "evaluation.Group",
+    "pk": 5,
+    "fields": {
+      "nombre": "Grupo 5"
+    }
+  },
+  {
+    "model": "evaluation.Group",
+    "pk": 6,
+    "fields": {
+      "nombre": "Grupo 6"
+    }
+  },
+  {
+    "model": "evaluation.Group",
+    "pk": 7,
+    "fields": {
+      "nombre": "Grupo 7"
+    }
+  }
+]
