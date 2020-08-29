@@ -53,6 +53,8 @@ def resumen_calificaciones(request):
     for x,y in estudiantes:
         e = Student.objects.get(pk=x)
         calificacion_average = Student.objects.filter(pk=x).aggregate(avg=Avg('evaluacion__calificacion'))["avg"]
+        if not calificacion_average:
+            calificacion_average=0
         estudiantess.append(e)
         calificacion.append(calificacion_average)
         promedio.append(calificacion_average/5)
