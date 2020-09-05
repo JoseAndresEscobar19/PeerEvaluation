@@ -35,18 +35,34 @@ def cargar_respuesta(request):
             try:
                 matricula=int(matricula)
                 stu=Student.objects.get(matricula=matricula)
-                estudiantes = Student.objects.filter(group_id=stu.group.pk).exclude(pk=stu.pk)
+                estudiantes = Student.objects.filter(paralelo=stu.paralelo,group_id=stu.group.pk).exclude(pk=stu.pk)
                 if stu.done:
-                    return render(request, 'index.html',{"msj":"Ya has realizado la evaluacion"})
+                    return render(request, 'index.html',{"msj":"Ya has realizado la evaluación"})
                 else:
                     return render(request,"index.html",{"estudiantes":estudiantes,"est":stu})
             except:
-                return render(request, 'index.html',{"msj":"Matricula incorrecta"})
+                return render(request, 'index.html',{"msj":"Matrícula incorrecta"})
     
-        return render(request, 'index.html',{"msj":"Matricula incorrecta"})
+        return render(request, 'index.html',{"msj":"Matrícula incorrecta"})
         
-def resumen_calificaciones(request):
-    estudiantes=Student.objects.order_by('group').values_list('id', 'matricula')
+def resumen_calificaciones_1(request):
+    estudiantes=Student.objects.filter(paralelo=1).order_by('group').values_list('id', 'matricula')
+    estudiantess=[]
+    calificacion=[]
+    promedio=[]
+    for x,y in estudiantes:
+        e = Student.objects.get(pk=x)
+        calificacion_average = Student.objects.filter(pk=x).aggregate(avg=Avg('evaluacion__calificacion'))["avg"]
+        if not calificacion_average:
+            calificacion_average=0
+        estudiantess.append(e)
+        calificacion.append(calificacion_average)
+        promedio.append(calificacion_average/5)
+    return render(request,"estudiantes_list.html",{"resultado":zip(estudiantess,calificacion,promedio)})
+
+
+def resumen_calificaciones_2(request):
+    estudiantes=Student.objects.filter(paralelo=2).order_by('group').values_list('id', 'matricula')
     estudiantess=[]
     calificacion=[]
     promedio=[]

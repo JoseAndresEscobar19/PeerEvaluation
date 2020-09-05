@@ -1,0 +1,227 @@
+[
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201302411",
+            "nombre": "LIMA PAGUAY,LENIN JAIR",
+            "group": "2",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201504407",
+            "nombre": "ALVAREZ ALVARADO,EDMUNDO LEONIDAS",
+            "group": "2",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201413183",
+            "nombre": "LOOR PORRO,RENZO BENJAMIN",
+            "group": "2",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201304674",
+            "nombre": "PARRA TARIRA,EFREN ENRIQUE",
+            "group": "2",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201221860",
+            "nombre": "DURANGO ESPINOZA,DAVID GERMAN",
+            "group": "2",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201143336",
+            "nombre": "ACOSTA TORRES,ANTHONY EDISON",
+            "group": "6",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201508766",
+            "nombre": "Valarezo De,La Fuente Alvaro Raul",
+            "group": "6",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201311420",
+            "nombre": "RAMIREZ GARCIA,CINDY VIVIANA",
+            "group": "6",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201508874",
+            "nombre": "SAYLEMA MURILLO,KARINA ISABEL",
+            "group": "6",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201601168",
+            "nombre": "CORDOVA GAVILANES,ERICK HUMBERTO",
+            "group": "6",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201417952",
+            "nombre": "BURGOS GAYREY,KARLA BELEN",
+            "group": "3",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201407121",
+            "nombre": "QUINTANA SOLORZANO,JONATHAN ISRAEL",
+            "group": "3",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201414290",
+            "nombre": "Rios  Benavides,Danny Paul",
+            "group": "3",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201304556",
+            "nombre": "MAN HING POW, FRANCESCA HELENA",
+            "group": "3",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201127356",
+            "nombre": "BERMELLO BURGOS,BRENDA MICHELLE",
+            "group": "3",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201408444",
+            "nombre": "Wong PavÓn,Hugo Bryan",
+            "group": "4",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201607835",
+            "nombre": "BERMUDEZ MOREIRA,KAREN MONSERRAT",
+            "group": "4",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201411077",
+            "nombre": "BERNAL MOREIRA,GUILLERMO ENRIQUE",
+            "group": "4",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201419079",
+            "nombre": "AGUILAR MORA,OSWALDO JOSMANY",
+            "group": "4",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201515963",
+            "nombre": "ORTIZ HOLGUIN,LUIS EDUARDO",
+            "group": "4",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201311793",
+            "nombre": "Pinargote Figueroa,Jorge Anibal",
+            "group": "5",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201505406",
+            "nombre": "GARCIA BAÑO,DANIEL ALEJANDRO",
+            "group": "5",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201609468",
+            "nombre": "GARCIA COX,MILTON FABRIZIO",
+            "group": "5",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201504956",
+            "nombre": "NEIRA MARTRUS,JOSE DAVID",
+            "group": "5",
+            "paralelo": "1"
+        }
+    },
+    {
+        "model": "evaluation.Student",
+        "fields": {
+            "matricula": "201116976",
+            "nombre": "Rodriguez Castaneda,Jorge Luis",
+            "group": "1",
+            "paralelo": "1"
+        }
+    }
+]
